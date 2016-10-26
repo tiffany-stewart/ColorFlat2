@@ -19,6 +19,7 @@ body {
 video#bgvideo {
   position: absolute;
   width: 100%;
+
   max-height: 100%;
   max-width: 100%;
   bottom: 0;
@@ -28,10 +29,11 @@ video#bgvideo {
   z-index: -1;
   margin: 0;
   top: 0;
+  vid.playbackRate = 0.5;
 }
 
 nav {
-  height: 400px;
+  height: 450px;
 }
 
 .logo h2 {
@@ -73,64 +75,70 @@ nav .logo {
 }
 
 .splash h1 {
-  color: #913224;
+  color: #202126;
   text-align: center;
   clear: both;
-  padding-top: 195px;
+  padding-top: 150px;
   font-size: 80px;
 }
 
 /* aboutFlat section */
 
 #aboutFlat {
-  position: relative;
-  padding-top: 90px;
-  padding-left: 45px;
 
+  padding-top: 30px;
+  padding-left: 50px;
+  background-color: #202126;
 }
 
 .feature {
   display: inline-block;
   width: 30%;
   text-align: center;
-
+  padding-bottom: 20px;
 }
 
 .feature h1 {
   font-size: 80px;
   padding-bottom: 0;
+  margin: 0
 }
 
 .feature h2 {
   font-weight: 100;
-  margin-top: -30px;
+  color: #fff;
 }
 
 .feature p {
   width: 50px;
   display: inline;
   font-size: 12px;
+  color: #fff;
+  font-weight: 100;
+
+
 }
 
 .feature i {
-  color: #202126;
+  color: #fff;
+  font-weight: 100;
 }
 
 /* recent works section */
 
 #recentWorks {
-  margin-top: 50px;
   height: 600px;
-  background-color: #202126;
+  background-color: #fff;
   text-align: center;
 }
 
 #recentWorks h1 {
   font-family: 'Ubuntu', sans-serif;
-  color: #fff;
+  color: #202126;
   font-weight: 300;
   text-align: center;
   padding-top: 40px;
+  margin: 0;
 }
 
 #recentWorks ul {
@@ -146,7 +154,7 @@ nav .logo {
 
 #recentWorks a {
   text-decoration: none;
-  color: #fff;
+  color: #202126;
   text-align: center;
   font-weight: 100;
 }
